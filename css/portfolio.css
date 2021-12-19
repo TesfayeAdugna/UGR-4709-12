@@ -2,6 +2,11 @@
     background-image: url(../images/60.jpg);
     height: 200px;
 }
+#header h1{
+    text-align: center;
+    margin: auto;
+    color: rgb(251, 123, 2);
+}
 body{
     margin: 0;
     background: repeating-linear-gradient(45deg, rgb(70, 73, 70), rgb(95, 106, 136) 1px);
@@ -188,8 +193,13 @@ nav li a{
     background-color: rgba(66, 65, 62, 0.884);
     box-shadow: 3px 3px 4px rgb(209, 208, 207);
 }
-#table table dd,dt{
-    font-size: large;    
+#table table td a{
+    font-size: large; 
+    color: rgb(0, 238, 255);   
+}
+#table table td a:hover{
+    font-size: larger;
+    transition-duration: 2s;
 }
 .skills{
     margin: 0 4em 0 1em;
@@ -338,6 +348,9 @@ footer img:hover{
     }
     .eachskill1 h3{
         font-size: 1em;
+    }
+    .paragraph h3{
+        font-size: 0.5em;
     }
     
 }
