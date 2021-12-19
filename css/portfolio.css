@@ -1,5 +1,5 @@
 #header{
-    background-image: url(/images/60.jpg);
+    background-image: url(../images/60.jpg);
     height: 200px;
 }
 body{
@@ -38,6 +38,9 @@ img{
     display: flex;
     flex-direction: column;
     margin-left: -3em; 
+}
+.navpages:hover{
+    border-bottom: 3px solid red;
 }
 li{   
     list-style: none;
@@ -239,7 +242,7 @@ nav li a{
 }
 footer{
     height: 200px;
-    background-image: url(/images/83.jpg);
+    background-image: url(../images/83.jpg);
 }
 #socialcode{
     display: flex;
@@ -264,9 +267,6 @@ footer img:hover{
     #dropnav li:hover ul{
         visibility: visible;
         margin-bottom: 10em;
-    }
-    .eachnavcontainer .eachnavcontainer li a:hover{
-        border-bottom: 3px solid red;
     }
     .profstart2 h1{
         font-size: 1.5em;
